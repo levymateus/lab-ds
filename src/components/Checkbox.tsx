@@ -20,7 +20,7 @@ export default forwardRef<HTMLInputElement, CheckboxProps>(({ children, defaultC
   }
 
   return <div className={clsx("flex gap-3 align-middle flex-row w-full select-none hover:cursor-pointer", className)}>
-    <div className="bg-gray-900 rounded flex justify-center w-6 h-6" onClick={toggle}>
+    <div className="bg-gray-800 rounded flex justify-center w-6 h-6" onClick={toggle}>
       {checked ? <Check className="text-cyan-300 self-center" weight="bold" size={20} /> : null}
     </div>
     <input
